@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">The <br>Weather <br>Channel</div>
+        <div class="search-ctn">
+            <input type="text" id="input" placeholder="Enter city name here ...">
+            <button type="submit" id="btn">submit</button>
+        </div>
+    </div>
+    
+    <div class="period">
+        <ul>
+            <li class="today"><a href="">Today</a></li>
+            <li class="hourly"><a href="">Hourly</a></li>
+        </ul>
+    </div>
+
+    <img class="image" src="https://tpc.googlesyndication.com/simgad/8419533411674054302?" alt="image">
+    <div class="weather-ctn">
+        <div class="city-information"></div>
+        <div class="weather-information">
+            <div class="conditions">
+                <div class="degree"></div>
+                <div class="text"></div>
+                <div class="max-temp"></div>
+                <div class="min-temp"></div>
+            </div>
+            <div class="icon"></div>
+        </div>           
+    </div>
+
+    <div class="weather-today">
+        <div class="added-info">
+            <div class="feelike">
+                <div class="text" id="text"></div>
+                <div class="today-temp" id="today-temp"></div>
+            </div>
+            <div class="sunset-sunrise">
+                
+            </div>
+        </div>
+        <div class="weather-datas">
+            <div class="parameters humidity"></div>
+            <div class="parameters uv-index"></div>
+            <div class="parameters avg-visibility"></div>
+            <div class="parameters wind-degree"></div>
+            <div class="parameters wind-speed"></div>
+            <div class="parameters wind-direction"></div>
+            <div class="parameters moon-phase"></div>
+            <div class="parameters chance-of-rain"></div>
+            <div class="parameters chance-of-snow"></div>
+            <div class="parameters pressure"></div>
+        </div>
+    </div>
+        <div class="swiper-container">
+            <div class="hourly-message"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide hour00"></div>
+                <div class="swiper-slide hour01"></div>
+                <div class="swiper-slide hour02"></div>
+                <div class="swiper-slide hour03"></div>
+                <div class="swiper-slide hour04"></div>
+                <div class="swiper-slide hour05"></div>
+                <div class="swiper-slide hour06"></div>
+                <div class="swiper-slide hour07"></div>
+                <div class="swiper-slide hour08"></div>
+                <div class="swiper-slide hour09"></div>
+                <div class="swiper-slide hour10"></div>
+                <div class="swiper-slide hour11"></div>
+                <div class="swiper-slide hour12"></div>
+                <div class="swiper-slide hour13"></div>
+                <div class="swiper-slide hour14"></div>
+                <div class="swiper-slide hour15"></div>
+                <div class="swiper-slide hour16"></div>
+                <div class="swiper-slide hour17"></div>
+                <div class="swiper-slide hour18"></div>
+                <div class="swiper-slide hour19"></div>
+                <div class="swiper-slide hour20"></div>
+                <div class="swiper-slide hour21"></div>
+                <div class="swiper-slide hour22"></div>
+                <div class="swiper-slide hour23"></div>
+            </div>
+        </div>
+    <script src="./node_modules/swiper/swiper-bundle.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
